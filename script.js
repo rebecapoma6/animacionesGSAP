@@ -1,11 +1,5 @@
-// =============================
-//   REGISTRO DE PLUGINS
-// =============================
 gsap.registerPlugin(ScrollTrigger);
-
-// =============================
-//   HERO - ANIMACIÓN INICIAL
-// =============================
+//hero animaciones
 const heroTL = gsap.timeline();
 
 heroTL
@@ -25,9 +19,9 @@ heroTL
     duration: 1
   }, "-=0.4");
 
-// =============================
-//   TÍTULO SECCIÓN SERVICIOS
-// =============================
+
+//   titulo de la section
+
 gsap.from("#featuresTitle", {
   scrollTrigger: {
     trigger: "#featuresTitle",
